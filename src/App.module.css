@@ -1,0 +1,66 @@
+.container {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.postsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.postCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 50%;
+}
+
+.postCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.postImage {
+  width: 30%;
+  height: 50%;
+}
+
+.postContent {
+  padding: 20px;
+}
+
+.postTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.postExcerpt {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.readMoreButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-left: 10px;
+}
+
+.readMoreButton:hover {
+  background-color: #0056b3;
+}
